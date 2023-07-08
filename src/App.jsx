@@ -19,8 +19,12 @@ function App() {
         Hello long sentence
       </p>
 
-      <p className="my-1">
+      <p className="my-1"> 
         Another long sentence
+      </p>
+
+      <p className='bg-[#bada55]'>
+        Another one
       </p>
     </div>
   )
