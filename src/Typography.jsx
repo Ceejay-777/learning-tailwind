@@ -12,6 +12,9 @@ const Typography = () => {
         <div style={{width: "200px"}}>
           <p className='truncate'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consectetur minima rerum neque, at pariatur magni porro molestiae esse eius tenetur reprehenderit eaque incidunt suscipit ad! Fuga adipisci illum illo aut quisquam doloribus consequuntur, saepe perspiciatis velit, nulla necessitatibus corrupti.</p>
         </div>
+        <div className=''>
+          <p className='break-all'>Lorem ipsum. Culpa consectetur minima rerum neque, atpariaturmagniorromolestiaeesseeiusteneturreprehenderiteaqueinciduntsuscipit .</p>
+        </div>
     </div> 
   )
 }

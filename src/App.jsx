@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Typography from './Typography'
+import SpacesAndSizes from './SpacesAndSizes'
 
 function App() {  
 
@@ -28,7 +29,8 @@ function App() {
     //     Another one
     //   </p>
     // </div>
-    <Typography /> 
+    // <Typography /> 
+    <SpacesAndSizes />
   )
 }
 
