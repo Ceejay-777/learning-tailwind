@@ -13,13 +13,20 @@ export default {
         }
       },
 
+      fontSize: {
+        base: "18px",
+        sm: "15px",
+        xs: "12px"
+      },
     },
+
     screens: {
       sm: "480px",
       md: "768px",
       lg: "976px",
       xl: "1440px"
     },
+
     spacing: {
       '1': '8px',
       '2': '12px',
@@ -28,6 +35,8 @@ export default {
       '5': '32px',
       '6': '48px',
     },
+
+    
   },
   plugins: [],
 }
