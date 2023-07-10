@@ -18,10 +18,15 @@ const SpacesAndSizes = () => {
         <div class="bg-red-300 -mt-8">-mt-8</div>
         <br /> */}
 
-        <div className="flex min-h-screen space-x-16">
+        {/* <div className="flex min-h-screen space-x-16">
             <div className="w-1/5 bg-red-500 ">Sidebar</div>
             <div className="w-4/5 bg-green-500">Main Content</div>
-        </div>
+        </div> */}
+
+        <h1 className="mb-4 font-bold">First title</h1>
+        <h2 className="mb-3 font-bold">Second title</h2>
+        <h3 className="mb-2 font-bold">Third title</h3>
+        <p className="mb-1">Paragraph</p>
     </div>
   )
 }
