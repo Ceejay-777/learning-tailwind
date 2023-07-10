@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Typography from './Typography'
 import SpacesAndSizes from './SpacesAndSizes'
+import Flex from './Flex'
 
 function App() {  
 
@@ -30,7 +31,8 @@ function App() {
     //   </p>
     // </div>
     // <Typography /> 
-    <SpacesAndSizes />
+    // <SpacesAndSizes />
+    <Flex />
   )
 }
 
