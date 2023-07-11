@@ -34,7 +34,7 @@ const Flex = () => {
         </div> */}
 
         <div>Header</div>
-        <div className="flex  items-baseline">
+        <div className="flex gap-3 w-min items-baseline mx-auto">
             {/* <div>Sidebar</div>
             <div>
                 <h1 className='font-bold'>Main Content</h1>
@@ -42,9 +42,9 @@ const Flex = () => {
             </div>
             <div>Another Sidebar</div> */}
 
-            <div className="pt-8 pb-12">01</div>
-            <div className="pt-2 pb-6">02</div>
-            <div className="pt-12 pb-4">03</div>
+            <div className="bg-sky-500 pt-8 pb-12 border-2 border-red-500">01</div>
+            <div className="bg-red-500 pt-2 pb-6 border-2 border-green-500">02</div>
+            <div className="bg-green-500 pt-12 pb-4 border-2 border-red-500">03</div>
         </div>
     </div>
   )
