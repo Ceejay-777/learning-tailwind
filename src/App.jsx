@@ -5,6 +5,7 @@ import './App.css'
 import Typography from './Typography'
 import SpacesAndSizes from './SpacesAndSizes'
 import Flex from './Flex'
+import Grids from './Grids'
 
 function App() {  
 
@@ -30,9 +31,12 @@ function App() {
     //     Another one
     //   </p>
     // </div>
+
+
     // <Typography /> 
     // <SpacesAndSizes />
-    <Flex />
+    // <Flex />
+    <Grids />
   )
 }
 
