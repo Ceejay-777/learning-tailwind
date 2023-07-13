@@ -25,6 +25,26 @@ const Grids = () => {
                 <div className='bg-sky-500 p-6 rounded-lg'>02</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>03</div>
             </div>
+            <div className="grid grid-flow-col auto-cols-max">
+                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+            </div>
+            <div className="grid grid-flow-col auto-cols-max">
+                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+            </div>
+            <div className="grid grid-flow-col auto-cols-max">
+                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+            </div>
+            <div className="grid grid-flow-col auto-cols-max">
+                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+            </div>
         </div>
     </div>
   )
