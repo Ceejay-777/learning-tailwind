@@ -2,7 +2,7 @@ import React from 'react'
 
 const Grids = () => {
   return (
-    <div className="text-white Parent bg-slate-900">
+    <div className="text-white Parent bg-slate-900 min-h-screen flex justify-center items-center">
         <div className='container mx-auto'>
             {/* <div className="grid sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
                 <div className='bg-sky-500 p-6 rounded-lg'>1</div>
@@ -20,31 +20,31 @@ const Grids = () => {
                 <div className="col-start-1 col-end-7 bg-sky-500 p-6 rounded-lg">04</div>
             </div> */}
  
-            <div className="grid grid-flow-col auto-cols-max">
+            {/* <div className="grid grid-cols-3 gap-4">
                 <div className='bg-sky-500 p-6 rounded-lg'>01</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>02</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>03</div>
-            </div>
-            <div className="grid grid-flow-col auto-cols-max">
+                <div className='bg-sky-500 p-6 rounded-lg'>04</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>05</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>06</div>
+            </div> */}
+
+            <div className="grid grid-flow-col gap-4 grid-rows-4 grid-cols-3">
+                <div className='bg-sky-500 p-6 rounded-lg row-span-2'>01</div>
+                <div className='bg-sky-500 p-6 rounded-lg '>02</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>04</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>05</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>06</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>01</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>02</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+                <div className='bg-sky-500 p-6 rounded-lg row-span-2 col-span-2'>03</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>04</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>05</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>06</div>
             </div>
-            <div className="grid grid-flow-col auto-cols-max">
-                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
-            </div>
-            <div className="grid grid-flow-col auto-cols-max">
-                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
-            </div>
-            <div className="grid grid-flow-col auto-cols-max">
-                <div className='bg-sky-500 p-6 rounded-lg'>01</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>02</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
-            </div>
+
+           
         </div>
     </div>
   )
