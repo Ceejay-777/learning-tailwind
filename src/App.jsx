@@ -6,6 +6,7 @@ import Typography from './Typography'
 import SpacesAndSizes from './SpacesAndSizes'
 import Flex from './Flex'
 import Grids from './Grids'
+import Layouts from './Layouts'
 
 function App() {  
 
@@ -36,7 +37,8 @@ function App() {
     // <Typography /> 
     // <SpacesAndSizes />
     // <Flex />
-    <Grids />
+    // <Grids />
+    <Layouts />
   )
 }
 

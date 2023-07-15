@@ -25,8 +25,14 @@ export default {
         //   3: "18px",
         //   4: "20px",
         // }
-      },
 
+        container: {
+          center: true,
+        }
+
+      },
+      
+      
     // screens: {
     //   sm: "480px",
     //   md: "768px",
