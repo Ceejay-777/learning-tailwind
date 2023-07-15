@@ -29,17 +29,17 @@ const Grids = () => {
                 <div className='bg-sky-500 p-6 rounded-lg'>06</div>
             </div> */}
 
-            <div className="grid grid-flow-col gap-4 grid-rows-4 grid-cols-3">
-                <div className='bg-sky-500 p-6 rounded-lg row-span-2'>01</div>
-                <div className='bg-sky-500 p-6 rounded-lg '>02</div>
+            <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
+                <div className='bg-sky-500 p-6 rounded-lg col-span-2'>01</div>
+                <div className='bg-sky-500 p-6 rounded-lg col-span-2'>02</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>03</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>04</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>05</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>06</div>
+                <div className='bg-sky-500 p-6 rounded-lg col-span-2'>06</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>01</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>02</div>
-                <div className='bg-sky-500 p-6 rounded-lg row-span-2 col-span-2'>03</div>
-                <div className='bg-sky-500 p-6 rounded-lg'>04</div>
+                <div className='bg-sky-500 p-6 rounded-lg'>03</div>
+                <div className='bg-sky-500 p-6 rounded-lg col-span-2'>04</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>05</div>
                 <div className='bg-sky-500 p-6 rounded-lg'>06</div>
             </div>
